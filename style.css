@@ -1,6 +1,5 @@
 body{
     background: rgb(54, 55, 54);
-    font-family: 'Courier New', Courier, monospace;
 }
 *{
   padding: 0;
@@ -20,10 +19,12 @@ label.logo{
   line-height: 80px;
   padding: 0 100px;
   font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
 }
 nav ul{
   float: right;
   margin-right: 20px;
+  font-family: 'Courier New', Courier, monospace;
 }
 nav ul li{
   display: inline-block;
@@ -35,6 +36,25 @@ nav ul li a{
   font-size: 17px;
   text-transform: uppercase;
 }
-h2, p{
+.portrait{
+  max-width: 400px;
+  border-radius: 100px;
+  margin-top: 100px;
+  margin-left: 50px;
+  padding-right: 20px;
+  float: left;
+}
+h1{
   color: white;
+  font-size: 50px;
+  float: right;
+  margin-top: 105px;
+  margin-right: 100px;
+}
+p{
+  color: white;
+  padding-top: 170px;
+  font-size: 20px;
+  text-align: left;
+  padding-right: 15px;
 }
