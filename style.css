@@ -47,7 +47,7 @@
   font-size: 50px;
   float: right;
   padding-top: 100px;
-  padding-right: 450px;
+  padding-right: 550px;
 }
 .about-page p{
   color: white;
@@ -55,4 +55,11 @@
   font-size: 20px;
   text-align: left;
   padding-right: 15px;
+}
+.about-page h2{
+  color: white;
+  font-size: 50px;
+  float: right;
+  padding-top: 100px;
+  padding-right: 570px;
 }
